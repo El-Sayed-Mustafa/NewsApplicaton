@@ -36,7 +36,11 @@
         android:id="@+id/articalFragment"
         android:name="com.androiddevs.mvvmnewsapp.UI.fragments.ArticalFragment"
         android:label="ArticalFragment"
-        />
+        >
+        <argument
+            android:name="article"
+            app:argType="com.androiddevs.mvvmnewsapp.models.Article" />
+    </fragment>
 
 
     <fragment
